@@ -1,0 +1,30 @@
+{
+  "name": "sqlc-ts",
+  "version": "0.1.0",
+  "description": "Generate TypeScript data access objects from SQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martianboy/sqlc-ts.git"
+  },
+  "author": "Abbas Mashayekh <martianboy2005@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martianboy/sqlc-ts/issues"
+  },
+  "homepage": "https://github.com/martianboy/sqlc-ts#readme",
+  "devDependencies": {
+    "@types/pg": "^7.14.1",
+    "@zoltu/typescript-transformer-append-js-extension": "^1.0.1",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "pg": "^7.17.1",
+    "pg-grammar": "git+https://github.com/martianboy/pg-grammar.git"
+  }
+}
